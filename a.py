@@ -1,6 +1,6 @@
 import math
 
-N = 1000
+N = 10000
 with open("sin_table_1000.inc", "w") as f:
     for i in range(N):
         val = math.sin(2 * math.pi * i / N)
